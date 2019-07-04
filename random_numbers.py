@@ -213,7 +213,7 @@ def main():
     g.add_argument('-n', '--npv', action = 'store_true', help = 'Next vertex cannot be the previous vertex')
     g.add_argument('-b','--neighbor', action = 'store_true',help = 'Cannon move to neighbor vertices')
     g2 = parser.add_mutually_exclusive_group()
-    g.add_argument('-td', '--dim3', action = 'store_true', help = '3d fractal plot')
+    g2.add_argument('-td', '--dim3', action = 'store_true', help = '3d fractal plot')
     args = parser.parse_args()
     if args.npv: flag = 1
     if args.neighbor: flag = 2
