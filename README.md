@@ -1,5 +1,5 @@
 # Chaos Game - Fractals!
 
-This is a small personal project to experiment with, understand, and play with... Fractals!
+A project to play with geometry and fractals, with some simple viz.
 
-With these scripts we can make 2d and 3d fractals through randomness and RNG's. Run experiments and make visualizations, or animate the RNG fractal!!
+With these scripts we can make 2d and 3d fractals with RNG's. Run experiments and make visualizations, or animate the fractal build.
